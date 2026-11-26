@@ -1,0 +1,40 @@
+{
+  "name": "bid-kit",
+  "version": "0.3.0",
+  "description": "投标全流程工具包：技术标（A3 四页/A4 十页）+ 附表生成、招标文件解析与废标红线、整册组装与暗标去痕、报价资信核查、文档渲染校核，支持批量处理",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "icon": "./icon.svg",
+  "files": [
+    "lib/index.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "assets",
+    "locale",
+    "docs"
+  ],
+  "keywords": [
+    "dsh",
+    "bid",
+    "tender",
+    "施工组织设计",
+    "技术标",
+    "附表",
+    "投标"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "~4.1.0",
+    "@deepseek-ai/dsh-skill": "0.2.2-rc.5"
+  }
+}
