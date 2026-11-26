@@ -2,11 +2,11 @@
     "format":  1,
     "title":  {
                   "zh":  "象山投标工具索引",
-                  "en":  "Bid Docs Index"
+                  "en":  "Bid Kit Index"
               },
     "description":  {
-                        "zh":  "本地维护的 DSH 插件索引：投标技术标与附表生成等",
-                        "en":  "Self-hosted DSH plugin index"
+                        "zh":  "自建 DSH 插件索引：投标全流程工具包",
+                        "en":  "Self-hosted index for bid toolkit"
                     },
     "metadata":  {
                      "categories":  {
@@ -31,20 +31,20 @@
                  },
     "plugins":  [
                     {
-                        "name":  "dsh-bid-docs",
+                        "name":  "bid-kit",
                         "title":  {
-                                      "zh":  "投标方案生成",
-                                      "en":  "Bid documents generator"
+                                      "zh":  "投标工具包",
+                                      "en":  "Bid toolkit"
                                   },
                         "description":  {
-                                            "zh":  "招标资料 → A3 四页技术标（施工组织设计）+ 附表（机械设备/劳动力/横道图/总平面+临时用地），含清单工程量核算",
-                                            "en":  "Tender archive to A3 tech proposal and appendices"
+                                            "zh":  "5 个技能 + 技术标 A3四页/A4十页 + 附表 + 批量处理",
+                                            "en":  "Five skills: proposals, tender review, packaging, pricing, rendering"
                                         },
-                        "icon":  "./icons/bid-docs.svg",
+                        "icon":  "./icons/bid-kit.svg",
                         "author":  "local",
                         "repository":  {
                                            "url":  "https://github.com/staryyj/dsh-index",
-                                           "directory":  "packages/dsh-bid-docs"
+                                           "directory":  "packages/bid-kit"
                                        },
                         "metadata":  {
                                          "category":  "bid",
@@ -62,13 +62,13 @@
                                      },
                         "versions":  [
                                          {
-                                             "version":  "0.1.0",
-                                             "publishTimestamp":  1764000000,
+                                             "version":  "0.3.0",
+                                             "publishTimestamp":  1795705446,
                                              "source":  {
                                                             "type":  "git",
                                                             "url":  "https://github.com/staryyj/dsh-index",
-                                                            "commit":  "17d23fe8971663905fdb9e17f80faa4582d573b2",
-                                                            "path":  "packages/dsh-bid-docs"
+                                                            "commit":  "6cbdfa2b8acd762614b2e57abbc6b46679693a1f",
+                                                            "path":  "packages/bid-kit"
                                                         },
                                              "engines":  {
                                                              "dsh":  "\u003e=0.2.2-rc.5"
