@@ -1,0 +1,80 @@
+{
+    "format":  1,
+    "title":  {
+                  "zh":  "象山投标工具索引",
+                  "en":  "Bid Docs Index"
+              },
+    "description":  {
+                        "zh":  "本地维护的 DSH 插件索引：投标技术标与附表生成等",
+                        "en":  "Self-hosted DSH plugin index"
+                    },
+    "metadata":  {
+                     "categories":  {
+                                        "bid":  {
+                                                    "title":  {
+                                                                  "zh":  "投标文档",
+                                                                  "en":  "Bid documents"
+                                                              }
+                                                }
+                                    },
+                     "labels":  {
+                                    "official":  {
+                                                     "title":  {
+                                                                   "zh":  "自建",
+                                                                   "en":  "Self-built"
+                                                               }
+                                                 }
+                                },
+                     "sortKeys":  {
+
+                                  }
+                 },
+    "plugins":  [
+                    {
+                        "name":  "dsh-bid-docs",
+                        "title":  {
+                                      "zh":  "投标方案生成",
+                                      "en":  "Bid documents generator"
+                                  },
+                        "description":  {
+                                            "zh":  "招标资料 → A3 四页技术标（施工组织设计）+ 附表（机械设备/劳动力/横道图/总平面+临时用地），含清单工程量核算",
+                                            "en":  "Tender archive to A3 tech proposal and appendices"
+                                        },
+                        "icon":  "./icons/bid-docs.svg",
+                        "author":  "local",
+                        "repository":  {
+                                           "url":  "https://github.com/staryyj/dsh-index",
+                                           "directory":  "packages/dsh-bid-docs"
+                                       },
+                        "metadata":  {
+                                         "category":  "bid",
+                                         "keywords":  [
+                                                          "bid",
+                                                          "tender",
+                                                          "施工组织设计"
+                                                      ],
+                                         "labels":  [
+                                                        "official"
+                                                    ],
+                                         "sortKeys":  {
+
+                                                      }
+                                     },
+                        "versions":  [
+                                         {
+                                             "version":  "0.1.0",
+                                             "publishTimestamp":  1764000000,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/staryyj/dsh-index",
+                                                            "commit":  "17d23fe8971663905fdb9e17f80faa4582d573b2",
+                                                            "path":  "packages/dsh-bid-docs"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.5"
+                                                         }
+                                         }
+                                     ]
+                    }
+                ]
+}
